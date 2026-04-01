@@ -4,3 +4,9 @@ output/
 output_prev/
 venv/
 .env
+# videos
+*.mp4
+*.avi
+
+# outputs
+output*

@@ -1,0 +1,24 @@
+PROBLEMS:
+1. Cars are densly packed in the sample video, there's overlap between cars, because of which some cars are recognized
+   while others aren't. So some numberplates are not recognized. --- YOLO specific problem
+
+2. In sample video cars are travelling towards the camera, so in one frame a car is far away, YOLO detects the numberplate
+   but since it's far, the OCR accuracy isn't great. The same car then comes closer in the later frames giving a much clearer
+   view of the numberplate. This will give good OCR accuracy. So the licesence number keeps flickering as the video plays.
+
+Solution - Track the number plate for say 20-30 frames, note all OCR readings. Use majority voting to get most accurate reading.
+
+3. Number plate brightness is low. 
+
+Solution - Basic preprocessing to increase brightness before passing to OCR.
+
+OPTIMIZATIONS:
+1. If say at an alphabet location we get a numerical value, then we can make educated guess.
+   8 should be B
+   1 should be I
+   0 should be O
+   2 should be Z
+   5 should be S
+   6 should be G
+   and vice versa.
+

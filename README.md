@@ -83,12 +83,10 @@ license-plate-recognition/
 ## ▶️ Demo
 
 ### 📥 Input Video
-
-[Watch Input Video]([https://drive.google.com/file/d/121OnrtPOnqlY88N4whB6I0JqN30rd8q1/view?usp=drive_link](https://drive.google.com/file/d/121OnrtPOnqlY88N4whB6I0JqN30rd8q1/view?usp=drivesdk))
+[Watch Input Video](https://drive.google.com/file/d/121OnrtPOnqlY88N4whB6I0JqN30rd8q1/view?usp=drive_link)
 
 ### 📤 Output Video
-
-[Watch Output Video]([https://drive.google.com/file/d/1t_ufDwxa9Dd1Fj5G8UrvCleALIfhaFBb/view?usp=drive_link](https://drive.google.com/file/d/1t_ufDwxa9Dd1Fj5G8UrvCleALIfhaFBb/view?usp=drivesdk))
+[Watch Output Video](https://drive.google.com/file/d/1t_ufDwxa9Dd1Fj5G8UrvCleALIfhaFBb/view?usp=drive_link)
 
 ---
 
